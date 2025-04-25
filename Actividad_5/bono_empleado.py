@@ -8,5 +8,8 @@ elif sueldo_empleado <= 1500:
     print("El empleado no tiene derecho a bono.")
 else:
     print("El sueldo ingresado no es válido. Debe ser un número positivo.")
-print("El bono del empleado es: ", bono)
 
+
+print(f"El bono del empleado es: {bono:.2f}")
+print(f"El sueldo del empleado es: {sueldo_empleado:.2f}")
+print(f"Salario total del empleado: {sueldo_empleado + bono:.2f}")
